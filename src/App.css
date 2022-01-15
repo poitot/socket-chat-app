@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #1f1f1f;
+    color: azure;
+}
+
+nav {
+    background-color: #1f1f1f
+}
+
+.chat {
+    margin: 20px auto auto auto;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    width: 800px;
+    height: 500px;
+}
+
+
+textArea {
+    margin: 20px auto auto auto;
+    max-width: 800px !important;
+    height: 40px;
+}
+
+#msgInput {
+    width: 85%;
+    height: 90%;
+    display: inline;
+    font-size: smaller
+}
+
+.list-group-item {
+  font-size: small
+}
+.list-group {
+    width: 800px;
+    margin: 20px auto auto auto;
+}
+
+#addTextMsg {
+    display: inline;
+    width: 10%;
+    height: 90%;
+    float: right;
+    background-color: beige;
+}
+
+
+
+.msgComp {
+  margin-bottom: 200px;
+}
